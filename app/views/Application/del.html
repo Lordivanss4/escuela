@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form>
+  				Nombre:
+  					<input type="text" name="nombre" id="nombre"/>
+  					<br>
+  				
+  					
+  					<input type="submit" name="btn" id="btn" value="Guardar" />
+  					<hr>
+  					</form>
+               #{if u}
+				<h1>El usuario se a borrado exitosamente</h1>
+				#{/if}
+				#{ifnot u}
+				<h1>No se encontro el usuario </h1>h1>
+				#{/ifnot}
+</body>
+</html>>

@@ -1,0 +1,77 @@
+13 jul 2012 09:08:16,443 INFO  ~ Starting C:\play_con_camel\play-1.2.4\escuela
+13 jul 2012 09:08:17,598 WARN  ~ You're running Play! in DEV mode
+13 jul 2012 09:08:17,755 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+13 jul 2012 09:09:12,059 INFO  ~ Connected to jdbc:mysql://localhost/escuela?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
+13 jul 2012 09:09:15,837 INFO  ~ Application 'escuela' is now started !
+13 jul 2012 09:17:14,008 ERROR ~ 
+
+@6b2m2b7gc
+Internal Server Error (500) for request GET /alta.html
+
+Compilation error (In /app/controllers/Application.java around line 25)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The local variable a may not have been initialized
+
+play.exceptions.CompilationException: The local variable a may not have been initialized
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:322)
+	at play.Play.detectChanges(Play.java:614)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)
+13 jul 2012 09:17:34,679 ERROR ~ 
+
+@6b2m2b7gd
+Internal Server Error (500) for request GET /alta.html
+
+Compilation error (In /app/controllers/Application.java around line 25)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The local variable a may not have been initialized
+
+play.exceptions.CompilationException: The local variable a may not have been initialized
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:322)
+	at play.Play.detectChanges(Play.java:614)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)
+13 jul 2012 09:17:51,966 ERROR ~ 
+
+@6b2m2b7ge
+Internal Server Error (500) for request GET /alta.html
+
+Compilation error (In /app/controllers/Application.java around line 25)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The local variable a may not have been initialized
+
+play.exceptions.CompilationException: The local variable a may not have been initialized
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:322)
+	at play.Play.detectChanges(Play.java:614)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)
+13 jul 2012 09:18:04,458 ERROR ~ 
+
+@6b2m2b7gf
+Internal Server Error (500) for request GET /alta.html
+
+Compilation error (In /app/controllers/Application.java around line 25)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The local variable ma may not have been initialized
+
+play.exceptions.CompilationException: The local variable ma may not have been initialized
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:277)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:322)
+	at play.Play.detectChanges(Play.java:614)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)
